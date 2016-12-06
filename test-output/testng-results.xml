@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="61554" started-at="2016-12-06T16:48:18Z" finished-at="2016-12-06T16:49:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="61554" started-at="2016-12-06T16:48:18Z" finished-at="2016-12-06T16:49:19Z">
+      <class name="scripts.InvalidLoginLogOut">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:scripts.InvalidLoginLogOut@4520ebad]" name="preCondition" is-config="true" duration-ms="50440" started-at="2016-12-06T22:18:18Z" finished-at="2016-12-06T22:19:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testInvalidLoginLogOut()[pri:0, instance:scripts.InvalidLoginLogOut@4520ebad]" name="testInvalidLoginLogOut" duration-ms="10809" started-at="2016-12-06T22:19:08Z" finished-at="2016-12-06T22:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLoginLogOut -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.InvalidLoginLogOut@4520ebad]" name="postCondition" is-config="true" duration-ms="49" started-at="2016-12-06T22:19:19Z" finished-at="2016-12-06T22:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- scripts.InvalidLoginLogOut -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

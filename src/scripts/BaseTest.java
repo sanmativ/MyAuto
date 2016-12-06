@@ -10,12 +10,13 @@ import org.testng.annotations.BeforeMethod;
 public abstract class BaseTest implements AutoConst
 {
 
-	public WebDriver driver;
+	public static WebDriver driver;
 	@BeforeMethod
 	
 	public void preCondition()
 	{
 		driver=new FirefoxDriver();
+		driver.manage().window().maximize();
 		driver.get("http://localhost/login.do");
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	}

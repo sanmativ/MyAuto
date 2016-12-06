@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class LoginPage extends BasePage
 
@@ -54,6 +55,11 @@ public class LoginPage extends BasePage
 		public void clickButton()
 		{
 			loginButton.click();
+		}
+		
+		public void verifyErrMsgDisplayed()
+		{
+			Assert.assertTrue(errMsg.isDisplayed());
 		}
 	
 }
